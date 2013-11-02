@@ -1,0 +1,20 @@
+{
+  "name": "random-token",
+  "description": "Random token generation of given size",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type":"git",
+    "url": "git://github.com/ashnur/random-token.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ashnur/random-token/issues"
+  },
+  "author": "ashnur",
+  "license": "DAFUQ",
+  "readmeFilename": "README.md"
+}
