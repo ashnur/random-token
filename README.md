@@ -18,12 +18,12 @@ var token = randomToken(16); // example output → 'xg8250nbg4klq5b3'
 
 ## different salt
 ``` javascript
-var randomToken = require('random-token').gen('abcdefghijklmnopqrstuvwxzyABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789');
+var randomToken = require('random-token').create('abcdefghijklmnopqrstuvwxzyABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789');
 var token = randomToken(16); // example output → '3ZGErMDCwxTOZYFp'
 ```
 
 **Note: valid salts are strings with length > 0**
-*if an invalid salt is given to `.gen`, the returned generator will use the default salt*
+*if an invalid salt is given to `.create`, the returned generator will use the default salt*
 
 ## convenience methods
 #### .create

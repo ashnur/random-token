@@ -1,7 +1,7 @@
 {
   "name": "random-token",
   "description": "Random token generation of given size",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js",
