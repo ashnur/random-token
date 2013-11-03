@@ -1,7 +1,7 @@
 {
   "name": "random-token",
   "description": "Random token generation of given size",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js",
@@ -14,6 +14,7 @@
   "bugs": {
     "url": "https://github.com/ashnur/random-token/issues"
   },
+  "keywords": ["token", "token-generator", "key", "keygen", "random-token"],
   "author": "ashnur",
   "license": "DAFUQ",
   "readmeFilename": "README.md"
