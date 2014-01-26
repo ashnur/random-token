@@ -16,6 +16,6 @@
   },
   "keywords": ["token", "token-generator", "key", "keygen", "random-token"],
   "author": "ashnur",
-  "license": "DAFUQ",
+  "license": "BSD-2-Clause",
   "readmeFilename": "README.md"
 }
