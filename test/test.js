@@ -64,4 +64,16 @@ void function(){
     testDups(3,3000)
     testDups(3,3000, abc)
     testDups(3,5000, rt.salt()+ABC)
+
+    test('generator', function(t){
+        t.plan(1)
+        var hash = 'qropadb'
+        var gen = rt.gen(hash)
+        var token = gen(20)
+        t.ok(token.split('').every(function(letter){
+          return hash.indexOf(letter) > -1
+        }))
+
+    })
+
 }()

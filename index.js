@@ -19,15 +19,16 @@ void function(root){
 
     }
 
+    rndtok.gen = createGenerator
+
     function createGenerator(salt){
         salt = typeof salt  == 'string' && salt.length > 0 ? salt :  'abcdefghijklmnopqrstuvwxzy0123456789'
         var temp = rndtok.bind(rndtok, salt)
         temp.salt = function(){ return salt }
         temp.create = createGenerator
+        temp.gen = createGenerator
         return temp
     }
-
-    rndtok.gen = createGenerator
 
     module.exports = createGenerator()
 
